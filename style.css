@@ -12,6 +12,7 @@
 
 body{
     background-color: #111111;
+    
 }
 /* ----- BODY ----- */
 
@@ -209,13 +210,19 @@ body{
 
 .text-blocos{
     margin-top: 26px;
+    margin-left: 16%;
+    margin-right: 16%;
 
     color: #696969;
     text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 530;
+    line-height: 24px; /* 148.099% */
 }
 
 #topic02-bloco03{
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .background-container {
@@ -245,7 +252,7 @@ body{
 
 .cards-bloco03{
     background-color: #111111;
-    margin-top: 90px;    
+    margin-top: 26px;    
     padding-top: 60px;
     padding-bottom: 60px;
     border-radius: 16px;
@@ -289,6 +296,41 @@ body{
     padding: 5px 13px;
 }
 /* ----- BLOCO 03 ----- */
+
+/* #bloco-respiro{
+    overflow: hidden;
+
+    display: flex;
+    gap: 30px;
+}
+
+#bloco-respiro img{
+    width: 330px;
+} */
+
+#bloco-respiro {
+    background-image: url('./imagens/etty.svg');
+    background-size: 370px;
+
+    padding: 38px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+#bloco-respiro {
+    animation: slide 3s infinite linear;
+}
+
+@keyframes slide{
+    from{
+        background-repeat: repeat-x;
+        background-position-x: 0px;
+    }
+
+    to{
+    background-position-x: -740px;
+    }
+}
 
 #foto-luiz {
     width: 470px;
