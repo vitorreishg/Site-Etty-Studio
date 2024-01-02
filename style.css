@@ -32,11 +32,11 @@ body{
     color: white;
     text-align: right;
 
-    margin-top: 75px;
+    margin-top: 4.6875rem;
 }
 
 #logo{
-    margin-top: 65px;
+    margin-top: 4.0625rem;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -60,13 +60,13 @@ body{
 #menu li{
     display: inline-block;
 
-    padding-left: 36px;
+    padding-left: 2.25rem;
 }
 
 #menu-li01{
     font-weight: 700;
-    line-height: 23.04px; /* 192% */
-    letter-spacing: 0.432px;
+    line-height: 1.44rem; /* 192% */
+    letter-spacing: 0.027rem;
     text-decoration-line: underline;
     text-transform: uppercase;
 }
@@ -75,10 +75,10 @@ body{
     text-decoration: none;
     color: #FFF;
     text-align: right;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-style: normal;
-    line-height: 23.04px; /* 177.231% */
-    letter-spacing: 0.432px;
+    line-height: 1.44rem; /* 177.231% */
+    letter-spacing: 0.027rem;
     text-transform: uppercase;
 }
 /* ----- HEADER ----- */
@@ -89,7 +89,7 @@ body{
     margin-right: 18%;
 
     text-align: center;
-    margin-top: 28px;
+    margin-top: 1.75rem;
 }
 
 #bloco01 h1{
@@ -98,22 +98,22 @@ body{
 
     color: #FFF;
     text-align: center;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 65px; /* 110.811% */
+    line-height: 4.0625rem; /* 110.811% */
     text-transform: uppercase;
 }
 
 #bloco01 p{
-    margin-top: 10px;
+    margin-top: 0.625rem;
 
     color: #696969;
     text-align: center;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 114.286% */
+    line-height: 1.5rem; /* 114.286% */
 }
 /* ----- BLOCO 01 ----- */
 
@@ -123,30 +123,30 @@ body{
     margin-right: 18%;
 
     text-align: center;
-    margin-top: 120px;
-    margin-bottom: 130px;
+    margin-top: 7.5rem;
+    margin-bottom: 8.125rem;
     padding: 0;
 }
 
 .titulos-blocos{
     text-align: center;
     color: #FFF;
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px; /* 84.211% */
+    line-height: 2rem; /* 84.211% */
     text-transform: uppercase;
 }
 
 #seta-blocos{
-    padding-left: 20px;
+    padding-left: 1.25rem;
 
-    width: 23px;
-    height: 23px;
+    width: 1.4375rem;
+    height: 1.4375rem;
 }
 
 #projetos-bloco02{
-    margin-top: 26px;
+    margin-top: 1.625rem;
 }
 
 .container-cards {
@@ -158,47 +158,47 @@ body{
 }
 
 .imagens-bloco02{
-    padding: 0 8px;
-    margin-top: 14px;
+    padding: 0 0.5rem;
+    margin-top: 0.875rem;
 }
 
 .infos-bloco02{
     text-align: start;
-    margin-top: 14px;
-    padding-left: 8px;
+    margin-top: 0.875rem;
+    padding-left: 0.5rem;
 }
 
 .infos-bloco02 h2{
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px; /* 150.588% */
+    line-height: 1.75rem; /* 150.588% */
 }
 
 .infos-bloco02 p{
     color: #696969;
-    font-size: 11.5px;
+    font-size: 0.7188rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 19.6px; /* 148.099% */
+    line-height: 1.225rem; /* 148.099% */
 
 }
 
 .subtitulos-blocos{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 
     color: #FFF;
     text-align: center;
-    font-size: 57px;
+    font-size: 3.5625rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 65px; /* 110.811% */
+    line-height: 4.0625rem; /* 110.811% */
     text-transform: uppercase;
 }
 
 .subtitulos-blocos img{
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 /* ----- BLOCO 02 ----- */
 
@@ -209,34 +209,34 @@ body{
 }
 
 .text-blocos{
-    margin-top: 26px;
+    margin-top: 1.625rem;
     margin-left: 16%;
     margin-right: 16%;
 
     color: #696969;
     text-align: center;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-style: normal;
     font-weight: 530;
-    line-height: 24px; /* 148.099% */
+    line-height: 1.5rem; /* 148.099% */
 }
 
 #topic02-bloco03{
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 
 .background-container {
     width: auto;
     height: auto;
-    padding: 80px 0px 68px 0px;
+    padding: 5rem 0rem 4.25rem 0rem;
     background-color: #1b1b1b;
-    border-radius: 18px;   
+    border-radius: 1.125rem;   
 
     background-image: url('./imagens/logo-bg.svg');
     background-repeat: no-repeat;
-    background-position-x: 400px;
-    background-size: 780px;
-    background-position-y: 120px;
+    background-position-x: 25rem;
+    background-size: 48.75rem;
+    background-position-y: 7.5rem;
     
 }
 
@@ -246,24 +246,24 @@ body{
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px; 
+    grid-column-gap: 1.25rem;
+    grid-row-gap: 1.25rem; 
 }
 
 .cards-bloco03{
     background-color: #111111;
-    margin-top: 26px;    
-    padding-top: 60px;
-    padding-bottom: 60px;
-    border-radius: 16px;
+    margin-top: 1.625rem;    
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    border-radius: 1rem;
     
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
 }
 
 .cards-bloco03 h1{
     color: #FFF;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
     text-transform: uppercase;
@@ -274,26 +274,26 @@ body{
 
 .cards-bloco03 p{
     color: #696969;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 157.377% */
+    line-height: 1.25rem; /* 157.377% */
 
-    margin-top: 23px;
-    margin-bottom: 24px;
+    margin-top: 1.4375rem;
+    margin-bottom: 1.5rem;
 }
 
 .cards-bloco03 button{
     color: #000;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     border-style: none;
 
-    padding: 5px 13px;
+    padding: 0.3125rem 0.8125rem;
 }
 /* ----- BLOCO 03 ----- */
 
@@ -312,11 +312,11 @@ body{
 
 #bloco-respiro {
     background-image: url('./imagens/etty.svg');
-    background-size: 370px;
+    background-size: 23.125rem;
 
-    padding: 38px;
-    margin-top: 130px;
-    margin-bottom: 130px;
+    padding: 2.375rem;
+    margin-top: 8.125rem;
+    margin-bottom: 8.125rem;
 }
 
 #bloco-respiro {
@@ -330,43 +330,43 @@ body{
     }
 
     to{
-    background-position-x: -740px;
+    background-position-x: -46.25rem;
     }
 }
 /* ----- BLOCO RESPIRO ----- */
 
 /* ----- BLOCO 04 ----- */
 #foto-luiz {
-    width: 470px;
+    width: 29.375rem;
 }
 
 .text-luiz{
-    margin-top: 26px;
-    margin-bottom: 26px;
+    margin-top: 1.625rem;
+    margin-bottom: 1.625rem;
     text-align: left;
 
     color: #4E4D4D;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 23px; /* 155.556% */
+    line-height: 1.4375rem; /* 155.556% */
 
 }
 
 #seta-titulo{
-    padding-right: 16px;
+    padding-right: 1rem;
 
-    width: 23px;
-    height: 23px;
+    width: 1.4375rem;
+    height: 1.4375rem;
 }
 
 .titulo-luiz{
     text-align: left;
     color: #FFF;
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 8px; /* 84.211% */
+    line-height: 0.5rem; /* 84.211% */
     text-transform: uppercase;
 }
 
@@ -379,24 +379,24 @@ body{
 }
 
 #information-luiz {
-    margin-left: 55px;
+    margin-left: 3.4375rem;
 }
 
 .icon-luiz {
-    padding: 2px;
+    padding: 0.125rem;
     font-size: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    width: 30px;
-    height: 28px;
+    width: 1.875rem;
+    height: 1.75rem;
     flex-shrink: 0;
 
     background-color: #282828;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 #container-icons {
@@ -404,13 +404,13 @@ body{
 }
 
 .icon-luiz img{
-    width: 20px;
+    width: 1.25rem;
 }
 
 .icon-luiz a{
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
 /* ----- BLOCO 04 ----- */
 
@@ -423,7 +423,7 @@ body{
     align-items: center;
     position: absolute;
 
-    gap: 16px;
+    gap: 1rem;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -434,24 +434,24 @@ body{
 }
 
 #bloco05 {
-    margin-top: 130px;
-    margin-bottom: 130px;
+    margin-top: 8.125rem;
+    margin-bottom: 8.125rem;
 }
 
 .depoimentos{
     background-color: #262626;
-    border-radius: 14px;
+    border-radius: 0.875rem;
 
-    padding: 40px;
-    margin-top: 26px;
+    padding: 2.5rem;
+    margin-top: 1.625rem;
 }
 
 .depoimentos h1{
     color: #FFF;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px; /* 145.691% */
+    line-height: 1.75rem; /* 145.691% */
     text-transform: uppercase;
 
     margin-bottom: 8px;
@@ -459,10 +459,10 @@ body{
 
 .depoimentos p{
     color: #696969;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 157.377% */
+    line-height: 1.25rem; /* 157.377% */
 }
 
 .depoimentos span{
@@ -473,10 +473,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 290px;
+    margin-top: 18.125rem;
     position: relative;
 
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .fundo-depoimento {
@@ -499,39 +499,39 @@ body{
 .titulo-bloco06{
     text-align: center;
     color: black;
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px; /* 84.211% */
+    line-height: 2rem; /* 84.211% */
     text-transform: uppercase;
 
 }
 
 #seta-bloco06{
-    padding-left: 20px;
+    padding-left: 1.25rem;
 
-    width: 23px;
-    height: 23px;
+    width: 1.4375rem;
+    height: 1.4375rem;
     fill: black;
 }
 
 #bloco06 {
     background-color: white;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 
-    margin-bottom: 110px;
+    margin-bottom: 6.875rem;
 }
 
 .duvidas-bloco06{
     color: #000;
-    font-size: 23px;
+    font-size: 1.4375rem;
     font-weight: 600;
-    line-height: 38px; /* 146.154% */
+    line-height: 2.375rem; /* 146.154% */
     text-transform: uppercase;
 
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .duvidas-frequentes{
@@ -540,25 +540,25 @@ body{
     align-items: center;
 
     text-transform: uppercase;
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
 
 .barras-bloco06{
     background-color: #000;
     width: 70%;
-    height: 2px;
+    height: 0.125rem;
     flex-shrink: 0;
     margin-left: 18%;
     margin-right: 18%;
 
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
 }
 /* ----- BLOCO 06 ----- */
 
 /* ----- BLOCO 07 ----- */
 #bloco07{
-    margin-bottom: 130px;
+    margin-bottom: 8.125rem;
 }
 /* ----- BLOCO 07 ----- */
 
@@ -568,7 +568,7 @@ body{
     display: flex;
     justify-content: space-between;
 
-    margin-bottom: 65px;
+    margin-bottom: 4.0625rem;
 }
 
 #logo-footer img{
@@ -579,42 +579,42 @@ body{
     display: flex;
     align-items: center;
 
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .footer-logos p{
     color: #696969;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-style: normal;
     font-weight: 500;
 
-    margin-left: 4px;
+    margin-left: 0.25rem;
 }
 
 #etty-studio-logo{
-    width: 100px;
-    height: 50px;
+    width: 6.25rem;
+    height: 3.125rem;
 
-    margin-left: 6px;
+    margin-left: 0.375rem;
 }
 
 #titulo-footer1 p{
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px; /* 116.667% */
+    line-height: 1.5rem; /* 116.667% */
 }
 
 #titulo-footer1 button{
-    margin-top: 30px;
-    padding: 3px 13px;
-    border-radius: 4px;
+    margin-top: 1.875rem;
+    padding: 0.1875rem 0.8125rem;
+    border-radius: 0.25rem;
     border: none;
 
     color: #000;
     text-align: center;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
@@ -630,18 +630,18 @@ body{
 
 #titulo-footer2 p{
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px; /* 116.667% */
+    line-height: 1.5rem; /* 116.667% */
     text-transform: uppercase;
     
-    padding-right: 14px;
+    padding-right: 0.875rem;
 }
 
 #nav-footer{
     display: flex;
-    margin-top: 16px;
+    margin-top: 1rem;
 }
 
 #nav-footer ul {
@@ -653,21 +653,21 @@ body{
 
 #nav-footer a {
     color: #696969;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-style: normal;
     font-weight: 650;
     text-decoration: none;
 }
 
 #nav-footer li{
-    padding-bottom: 6px;
+    padding-bottom: 0.375rem;
 }
 
 #nav-list1{
-    margin-right: 32px;
+    margin-right: 2rem;
 }
 
 #container-icons-footer {
     display: flex;
-    margin-left: 50px;
+    margin-left: 3.125rem;
 }
