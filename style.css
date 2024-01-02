@@ -342,7 +342,7 @@ body{
 
 .text-luiz{
     margin-top: 26px;
-    margin-bottom: 12px;
+    margin-bottom: 26px;
     text-align: left;
 
     color: #4E4D4D;
@@ -397,7 +397,6 @@ body{
     border-radius: 5px;
 
     margin-right: 10px;
-    margin-top: 14px;
 }
 
 #container-icons {
@@ -505,6 +504,7 @@ body{
     font-weight: 600;
     line-height: 32px; /* 84.211% */
     text-transform: uppercase;
+
 }
 
 #seta-bloco06{
@@ -517,6 +517,10 @@ body{
 
 #bloco06 {
     background-color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    margin-bottom: 110px;
 }
 
 .duvidas-bloco06{
@@ -544,7 +548,126 @@ body{
     width: 70%;
     height: 2px;
     flex-shrink: 0;
+    margin-left: 18%;
+    margin-right: 18%;
 
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 /* ----- BLOCO 06 ----- */
+
+/* ----- BLOCO 07 ----- */
+#bloco07{
+    margin-bottom: 130px;
+}
+/* ----- BLOCO 07 ----- */
+
+.footer{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 65px;
+}
+
+#logo-footer img{
+    animation: rotate 5s infinite linear;
+}
+
+.footer-logos {
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.footer-logos p{
+    color: #696969;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+
+    margin-left: 4px;
+}
+
+#etty-studio-logo{
+    width: 100px;
+    height: 50px;
+
+    margin-left: 6px;
+}
+
+#titulo-footer1 p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 116.667% */
+}
+
+#titulo-footer1 button{
+    margin-top: 30px;
+    padding: 3px 13px;
+    border-radius: 4px;
+    border: none;
+
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#footer-part2{
+    display: flex;
+}
+
+#titulo-footer2{
+    display: flex;
+}
+
+#titulo-footer2 p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 116.667% */
+    text-transform: uppercase;
+    
+    padding-right: 14px;
+}
+
+#nav-footer{
+    display: flex;
+    margin-top: 16px;
+}
+
+#nav-footer ul {
+    list-style-type: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+#nav-footer a {
+    color: #696969;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 650;
+    text-decoration: none;
+}
+
+#nav-footer li{
+    padding-bottom: 6px;
+}
+
+#nav-list1{
+    margin-right: 32px;
+}
+
+#container-icons-footer {
+    display: flex;
+    margin-left: 50px;
+}
