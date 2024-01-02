@@ -126,6 +126,7 @@ body{
     margin-top: 7.5rem;
     margin-bottom: 8.125rem;
     padding: 0;
+    
 }
 
 .titulos-blocos{
@@ -147,28 +148,29 @@ body{
 
 #projetos-bloco02{
     margin-top: 1.625rem;
+
 }
 
 .container-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-column-gap: 0.10rem;
-    grid-row-gap: 0.10rem;
+    grid-column-gap: 1.125rem;
+    grid-row-gap: 1.6px;
+
 }
 
-.imagens-bloco02{
-    padding: 0 0.5rem;
+.imagensBloco02{
     margin-top: 0.875rem;
 }
 
-.infos-bloco02{
+.infosBloco02{
     text-align: start;
-    margin-top: 0.875rem;
+    margin-top: 0.75rem;
     padding-left: 0.5rem;
 }
 
-.infos-bloco02 h2{
+.infosBloco02 h2{
     color: white;
     font-size: 1rem;
     font-style: normal;
@@ -176,7 +178,7 @@ body{
     line-height: 1.75rem; /* 150.588% */
 }
 
-.infos-bloco02 p{
+.infosBloco02 p{
     color: #696969;
     font-size: 0.7188rem;
     font-style: normal;
@@ -421,7 +423,6 @@ body{
     grid-column-gap: 0.10rem;
     grid-row-gap: 0.10rem;
     align-items: center;
-    position: absolute;
 
     gap: 1rem;
     margin-left: 2%;
@@ -444,6 +445,10 @@ body{
 
     padding: 2.5rem;
     margin-top: 1.625rem;
+}
+
+.yna{
+    display: none;
 }
 
 .depoimentos h1{
@@ -473,7 +478,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 18.125rem;
+    margin-top: 40px;
     position: relative;
 
     gap: 1.25rem;
@@ -562,6 +567,7 @@ body{
 }
 /* ----- BLOCO 07 ----- */
 
+/* ----- FOOTER ----- */
 .footer{
     margin-left: 20%;
     margin-right: 20%;
@@ -671,3 +677,34 @@ body{
     display: flex;
     margin-left: 3.125rem;
 }
+/* ----- FOOTER ----- */
+
+
+
+
+
+.menu-list{
+    transition: all 0.2s;
+}
+
+.menu-list:hover {
+    font-weight: 700;
+    line-height: 1.44rem; /* 192% */
+    letter-spacing: 0.027rem;
+    text-transform: uppercase;
+}
+
+
+/* .imagens-bloco02:hover{
+    border: solid white 2px;
+    border-radius: 18px;
+    position: relative;
+}
+
+.infos-bloco02 h2:hover{
+    text-decoration: underline;
+}
+
+.hover-cards:hover{
+    transform: scale(1.02);
+} */

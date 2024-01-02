@@ -16,10 +16,10 @@
         </div>
         <nav id="menu">
             <ul>
-                <li id="menu-li01"><a href="">HOME</a></li>
-                <li id="menu-li02"><a href="">PROJETOS E CASES</a></li>
-                <li id="menu-li03"><a href="">SOBRE</a></li>
-                <li id="menu-li04"><a href="">CONTATO</a></li>
+                <li id="menu-li01" class="menu-list"><a href="#home">HOME</a></li>
+                <li id="menu-li02" class="menu-list"><a href="#projetos">PROJETOS E CASES</a></li>
+                <li id="menu-li03" class="menu-list"><a href="#sobre">SOBRE</a></li>
+                <li id="menu-li04" class="menu-list"><a href="#contatos">CONTATO</a></li>
             </ul>
         </nav>
     </header>
@@ -49,33 +49,34 @@
 
         <!-- /* --- IMAGENS --- */ -->
         <div class="container-cards" id="projetos-bloco02">
-            <div><!--IMG 01-->
-                <img src="./imagens/projeto01.svg" alt="" class="imagens-bloco02"> <br>
-                <div class="infos-bloco02">
-                    <h2>WIG Commerce</h2>
+
+            <div class="cardsHover" onmouseover="hoverCards()"><!--IMG 01-->
+                <img src="./imagens/projeto01.svg" alt="" class="imagensBloco02"> <br>
+                <div class="infosBloco02">
+                    <h2 id="titleCard">WIG Commerce</h2>
                     <p>Agência de performance digital</p>
                 </div>
             </div><!--IMG 01-->
 
-            <div><!--IMG 02-->
-                <img src="./imagens/projeto02.svg" alt="" class="imagens-bloco02">
-                <div class="infos-bloco02">
+            <div class="cardsHover" onmouseover="hoverCards()"><!--IMG 02-->
+                <img src="./imagens/projeto02.svg" alt="" class="imagensBloco02">
+                <div class="infosBloco02">
                     <h2>Dental Pathways</h2>
                     <p>Comunidade para dentistas</p>
                 </div>
             </div>
 
-            <div><!--IMG 03-->
-                <img src="./imagens/projeto03.svg" alt="" class="imagens-bloco02">
-                <div class="infos-bloco02">
+            <div class="cardsHover" onmouseover="hoverCards()"><!--IMG 03-->
+                <img src="./imagens/projeto03.svg" alt="" class="imagensBloco02">
+                <div class="infosBloco02">
                     <h2>N Sol</h2>
                     <p>Energia Solar</p>
                 </div>
             </div>
 
-            <div><!--IMG 04-->
-                <img src="./imagens/projeto04.svg" alt="" class="imagens-bloco02">
-                <div class="infos-bloco02">
+            <div class="cardsHover" onmouseover="hoverCards()"><!--IMG 04-->
+                <img src="./imagens/projeto04.svg" alt="" class="imagensBloco02">
+                <div class="infosBloco02">
                     <h2>D/Be</h2>
                     <p>Marketing Digital</p>
                 </div>
@@ -215,39 +216,50 @@
                 <img src="./imagens/seta.svg" alt="" id="seta-blocos">
             </h1>
         </div>
-        <div class="depoimento-cards">
+        <div id="bg-depoimentos">
             <div class="bg-esquerdo">
                 <img src="./imagens/transparent-bg-esq.svg" alt="">
             </div>
-            <div class="depoimentos">
-                <h1>Alexandre <span>- Wig Commerce</span></h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not
-                    only five centuries, but also the leap into electronic typesetting,
-                    remaining essentially unchanged.</p>
-            </div>
-            <div class="depoimentos">
-                <h1>Alexandre <span>- Wig Commerce</span></h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not
-                    only five centuries, but also the leap into electronic typesetting,
-                    remaining essentially unchanged.</p>
-            </div>
-            <div class="depoimentos"> 
-                <h1>Alexandre <span>- Wig Commerce</span></h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not
-                    only five centuries, but also the leap into electronic typesetting,
-                    remaining essentially unchanged.</p>
-            </div>
             <div class="bg-direito">
                 <img src="./imagens/transparent-bg-drt.svg" alt="">
+            </div>
+        </div>
+        <div class="depoimento-cards">
+            <div class="depoimentos alexandre">
+                <h1>Alexandre <span> - Wig Commerce</span></h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not
+                    only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged.</p>
+            </div>
+            <div class="depoimentos carlos">
+                <h1>CARLOS <span> - N SOL ENERGIA</span></h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not
+                    only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged.</p>
+            </div>
+            <div class="depoimentos karina"> 
+                <h1>KARINA <span> - Doce Faro Pet store</span></h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not
+                    only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged.</p>
+            </div>
+            <div class="depoimentos yna"> 
+                <h1>YNA <span> - Pão da Vida Church</span></h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not
+                    only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged.</p>
             </div>
         </div>
 
@@ -362,5 +374,6 @@
         </div>
     </footer>
 
+<script src="index.js"></script>
 </body>
 </html>
