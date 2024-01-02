@@ -297,6 +297,8 @@ body{
 }
 /* ----- BLOCO 03 ----- */
 
+
+/* ----- BLOCO RESPIRO ----- */
 /* #bloco-respiro{
     overflow: hidden;
 
@@ -331,7 +333,9 @@ body{
     background-position-x: -740px;
     }
 }
+/* ----- BLOCO RESPIRO ----- */
 
+/* ----- BLOCO 04 ----- */
 #foto-luiz {
     width: 470px;
 }
@@ -409,3 +413,138 @@ body{
     margin: 0px;
     padding: 0px;
 }
+/* ----- BLOCO 04 ----- */
+
+/* ----- BLOCO 05 ----- */
+.depoimento-cards{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0.10rem;
+    grid-row-gap: 0.10rem;
+    align-items: center;
+    position: absolute;
+
+    gap: 16px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#titulo-bloco05{
+    position: relative;
+    z-index: 1;
+}
+
+#bloco05 {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.depoimentos{
+    background-color: #262626;
+    border-radius: 14px;
+
+    padding: 40px;
+    margin-top: 26px;
+}
+
+.depoimentos h1{
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 145.691% */
+    text-transform: uppercase;
+
+    margin-bottom: 8px;
+}
+
+.depoimentos p{
+    color: #696969;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 157.377% */
+}
+
+.depoimentos span{
+    color: #696969;
+}
+
+#setas-depoimento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 290px;
+    position: relative;
+
+    gap: 20px;
+}
+
+.fundo-depoimento {
+    position: absolute;
+    display: flex;
+}
+
+.bg-direito {
+    position: absolute;
+    right: 0%;
+}
+
+.bg-esquerdo {
+    position: absolute;
+    left: 0%;
+}
+/* ----- BLOCO 05 ----- */
+
+/* ----- BLOCO 06 ----- */
+.titulo-bloco06{
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 84.211% */
+    text-transform: uppercase;
+}
+
+#seta-bloco06{
+    padding-left: 20px;
+
+    width: 23px;
+    height: 23px;
+    fill: black;
+}
+
+#bloco06 {
+    background-color: white;
+}
+
+.duvidas-bloco06{
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 38px; /* 146.154% */
+    text-transform: uppercase;
+
+    display: flex;
+    gap: 20px;
+}
+
+.duvidas-frequentes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.barras-bloco06{
+    background-color: #000;
+    width: 70%;
+    height: 2px;
+    flex-shrink: 0;
+
+    margin-top: 30px;
+}
+/* ----- BLOCO 06 ----- */
