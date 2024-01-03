@@ -40,6 +40,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: start;
+
+    cursor: pointer;
 }
 
 #logo img{
@@ -162,6 +164,9 @@ body{
 
 .imagensBloco02{
     margin-top: 0.875rem;
+    border-radius: 1.25rem;
+
+    transition: all 0.2s linear;
 }
 
 .infosBloco02{
@@ -176,6 +181,8 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: 1.75rem; /* 150.588% */
+
+    transition: all 0.2s linear;
 }
 
 .infosBloco02 p{
@@ -184,12 +191,15 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 1.225rem; /* 148.099% */
-
+    transition: all 0.2s linear;
 }
 
 .subtitulos-blocos{
-    margin-top: 1.25rem;
-
+    margin: 20px auto;
+    
+    width: max-content;
+    position: relative;
+    cursor: pointer;
     color: #FFF;
     text-align: center;
     font-size: 3.5625rem;
@@ -197,6 +207,26 @@ body{
     font-weight: 700;
     line-height: 4.0625rem; /* 110.811% */
     text-transform: uppercase;
+    transition: 0.2s linear;
+}
+
+.subtitulos-blocos::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    background-color: #111111;
+    transition: 0.2s linear;
+}
+
+.subtitulos-blocos:hover::after{
+    background-color: #FFF;
+}
+
+.subtitulos-blocos:hover{
+    font-size: 59px;
 }
 
 .subtitulos-blocos img{
@@ -259,8 +289,20 @@ body{
     padding-bottom: 3.75rem;
     border-radius: 1rem;
     
-    padding-left: 1.875rem;
-    padding-right: 1.875rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 0.3s;
+}
+
+.cards-bloco03:hover{
+    transform: scale(1.02);
+    border: white solid 2px;
+    cursor: pointer;
+}
+
+.buttonCards:hover{
+    transform: scale(1.08);
+    cursor: pointer;
 }
 
 .cards-bloco03 h1{
@@ -283,6 +325,7 @@ body{
 
     margin-top: 1.4375rem;
     margin-bottom: 1.5rem;
+    transition: 0.3s;
 }
 
 .cards-bloco03 button{
@@ -294,7 +337,7 @@ body{
     text-transform: uppercase;
     border-radius: 0.25rem;
     border-style: none;
-
+    transition: all 0.3s;
     padding: 0.3125rem 0.8125rem;
 }
 /* ----- BLOCO 03 ----- */
@@ -390,6 +433,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: #111111 solid 1px;
 
     width: 1.875rem;
     height: 1.75rem;
@@ -399,6 +443,14 @@ body{
     border-radius: 0.3125rem;
 
     margin-right: 0.625rem;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+
+.icon-luiz:hover{
+    border: white solid 1px;
+    transform: scale(1.10);
+    transition: 0.5s linear;
 }
 
 #container-icons {
@@ -564,6 +616,7 @@ body{
 /* ----- BLOCO 07 ----- */
 #bloco07{
     margin-bottom: 8.125rem;
+    position: relative;
 }
 /* ----- BLOCO 07 ----- */
 
@@ -581,11 +634,12 @@ body{
     animation: rotate 5s infinite linear;
 }
 
-.footer-logos {
+.footer-logos a{
     display: flex;
     align-items: center;
-
     margin-top: 2.5rem;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .footer-logos p{
@@ -624,6 +678,12 @@ body{
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
+    transition: all 0.2s;
+}
+
+#buttonFooter:hover{
+    transform: scale(1.08);
+    cursor: pointer;
 }
 
 #footer-part2{
@@ -648,6 +708,7 @@ body{
 #nav-footer{
     display: flex;
     margin-top: 1rem;
+    transition: all 0.4s;
 }
 
 #nav-footer ul {
@@ -663,6 +724,7 @@ body{
     font-style: normal;
     font-weight: 650;
     text-decoration: none;
+    transition: all 0.4s;
 }
 
 #nav-footer li{
@@ -677,6 +739,17 @@ body{
     display: flex;
     margin-left: 3.125rem;
 }
+
+.listFooter:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+#listFooter01:hover, #listFooter02:hover, #listFooter03:hover, #listFooter04:hover, #listFooter05:hover, #listFooter06:hover, #listFooter07:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 /* ----- FOOTER ----- */
 
 
@@ -695,16 +768,23 @@ body{
 }
 
 
-/* .imagens-bloco02:hover{
+/* .imagensBloco02:hover{
     border: solid white 2px;
     border-radius: 18px;
-    position: relative;
-}
-
-.infos-bloco02 h2:hover{
-    text-decoration: underline;
-}
-
-.hover-cards:hover{
-    transform: scale(1.02);
 } */
+
+.cardsHover:hover, .cardsHover:hover .imagensBloco02, .cardsHover:hover #titleCard, .cardsHover:hover #textCard {
+    transform: scale(1.01);
+    text-decoration: underline;
+    cursor: pointer;
+    border: solid white 2px;
+}
+
+.cardsHover:hover #textCard{
+    text-decoration: none;
+}
+
+.cardsHover:hover,  .cardsHover:hover #titleCard, .cardsHover:hover #textCard{
+    border: none;
+}
+
