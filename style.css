@@ -573,6 +573,10 @@ body{
     fill: #FFF;
 }
 
+#setas-depoimento img {
+    transition: transform 0.2s ease-in-out;
+}
+
 .fundo-depoimento {
     position: absolute;
     display: flex;

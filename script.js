@@ -69,3 +69,15 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
+
+
+
+function aumentarElemento(elemento) {
+    elemento.style.transform = "scale(1.2)"; // Ajuste a escala conforme desejado
+
+    // Adiciona um event listener para resetar a escala após a animação
+    elemento.addEventListener("transitionend", function resetarEscala() {
+        elemento.style.transform = "scale(1)";
+        elemento.removeEventListener("transitionend", resetarEscala);
+    });
+}
