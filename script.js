@@ -81,3 +81,16 @@ function aumentarElemento(elemento) {
         elemento.removeEventListener("transitionend", resetarEscala);
     });
 }
+
+// Seu código JavaScript existente
+
+
+
+
+
+
+function toggleResposta(elemento) {
+    const resposta = elemento.nextElementSibling;
+    resposta.classList.toggle("active");
+}
+// Outras funções e lógica do seu arquivo JavaScript

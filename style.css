@@ -624,15 +624,60 @@ body{
     margin-top: 8.125rem;
 }
 
+.duvidasBloco06{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.duvidasBloco06 p{
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-top: 16px;
+
+    text-transform: none;
+    color: #252525;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 157.377% */
+}
+
+
 .duvidas-bloco06{
     color: #000;
-    font-size: 1.4375rem;
+    font-size: 23px;
     font-weight: 600;
     line-height: 2.375rem; /* 146.154% */
     text-transform: uppercase;
+    position: relative;
+    width: max-content;
+    cursor: pointer;
 
     display: flex;
     gap: 1.25rem;
+    transition: 0.2s linear;
+}
+
+.duvidas-bloco06::after{
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    transition: 0.2s linear;
+}
+
+.duvidas-bloco06:hover::after{
+    background-color: black;
+}
+
+.duvidas-bloco06:hover{
+    font-size: 25px;
 }
 
 .duvidas-frequentes{
@@ -642,6 +687,31 @@ body{
 
     text-transform: uppercase;
     margin-top: 4.375rem;
+}
+
+.resposta {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out; /* Adiciona uma transição suave de 0.5 segundos */
+}
+
+.resposta.active {
+    max-height: 1000px; /* Use um valor grande o suficiente para cobrir a altura máxima possível do conteúdo */
+    transition: max-height 0.7s ease-in; /* Adiciona uma transição suave de 0.5 segundos */
+}
+
+.resposta.active {
+    display: block;
+}
+
+.duvidas-bloco06.active::after {
+    background-color: black;
+    /* Mantenha os estilos de acordo com sua necessidade */
+}
+
+.duvidas-bloco06.active {
+    font-size: 25px;
+    /* Mantenha os estilos de acordo com sua necessidade */
 }
 
 .barras-bloco06{
