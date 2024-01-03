@@ -580,15 +580,14 @@ body{
 
 .bg-direito {
     position: absolute;
-    right: -10%;
-
-    transform: scaleY(2);
+    right: 0%;
+    transform: scaleY(1.09);
 }
 
 .bg-esquerdo {
     position: absolute;
-    left: -10%;
-    transform: scaleY(2);
+    left: 0%;
+    transform: scaleY(1.09);
 }
 /* ----- BLOCO 05 ----- */
 
