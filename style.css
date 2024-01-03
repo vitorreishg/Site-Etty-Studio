@@ -469,17 +469,6 @@ body{
 /* ----- BLOCO 04 ----- */
 
 /* ----- BLOCO 05 ----- */
-.depoimento-cards{
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 0.10rem;
-    grid-row-gap: 0.10rem;
-    align-items: center;
-
-    gap: 1rem;
-    margin-left: 2%;
-    margin-right: 2%;
-}
 
 #titulo-bloco05{
     position: relative;
@@ -488,42 +477,88 @@ body{
 
 #bloco05 {
     margin-top: 8.125rem;
-    margin-bottom: 8.125rem;
+    margin-bottom: 26px;
 }
 
-.depoimentos{
-    background-color: #262626;
-    border-radius: 0.875rem;
-
-    padding: 2.5rem;
-    margin-top: 1.625rem;
+.bodySlider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.yna{
+.wrapper {
+    max-width: 1500px;
+    width: 100%;
+
+}
+
+.wrapper .carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    gap: 16px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+}
+
+.carousel::-webkit-scrollbar{
     display: none;
 }
 
-.depoimentos h1{
-    color: #FFF;
+.carousel.no-transition{
+    scroll-behavior: auto;
+}
+
+.carousel.dragging{
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card{
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel .card{
+    scroll-snap-align: start;
+    list-style: none;
+    background-color: rgb(38, 38, 38);
+    border-radius: 8px;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card h1{
+    color: rgb(255, 255, 255);
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.75rem; /* 145.691% */
+    line-height: 1.75rem;
     text-transform: uppercase;
-
     margin-bottom: 8px;
+
+    cursor: grab;
+    user-select: none;
 }
 
-.depoimentos p{
-    color: #696969;
+.card h1 span{
+    color: rgb(105, 105, 105);
+}
+
+.card p{
+    color: rgb(105, 105, 105);
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.25rem; /* 157.377% */
-}
+    line-height: 1.25rem;
 
-.depoimentos span{
-    color: #696969;
+    cursor: grab;
+    user-select: none;
 }
 
 #setas-depoimento{
@@ -532,8 +567,10 @@ body{
     align-items: center;
     margin-top: 40px;
     position: relative;
-
+    cursor: pointer;
     gap: 1.25rem;
+
+    fill: #FFF;
 }
 
 .fundo-depoimento {
@@ -543,12 +580,15 @@ body{
 
 .bg-direito {
     position: absolute;
-    right: 0%;
+    right: -10%;
+
+    transform: scaleY(2);
 }
 
 .bg-esquerdo {
     position: absolute;
-    left: 0%;
+    left: -10%;
+    transform: scaleY(2);
 }
 /* ----- BLOCO 05 ----- */
 
@@ -578,6 +618,7 @@ body{
     padding-bottom: 5rem;
 
     margin-bottom: 6.875rem;
+    margin-top: 8.125rem;
 }
 
 .duvidas-bloco06{
